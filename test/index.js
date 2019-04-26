@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-uncomment for DOM api support
+// uncomment for DOM api support
 const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
 const { window } = new JSDOM(``);
