@@ -17,10 +17,11 @@ h2 {
 }
 .part {
     display: inline-block;
-    height: 150px;
+    height: 125px;
     width: 30px;
-    border-radius: 25%;
-    margin-left: -20px;
+    border-radius: 15%;
+    margin-bottom: 20px;
+    margin-left: -10px;
 }
 .watermelon {
     background: red;
@@ -32,13 +33,13 @@ h2 {
     background: yellow;
 }
 .avocado {
-    background: green;
+    background: rgb(94, 226, 6);
 }
 .blueberry {
-    background: cyan;
+    background: rgb(96, 196, 253);
 }
 .grape {
-    background: indigo;
+    background: rgb(131, 59, 182);
 }
 button {
     border: none;
