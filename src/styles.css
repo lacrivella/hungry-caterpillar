@@ -47,5 +47,6 @@ button {
 .nyancat {
     margin-right: -33px;
 }
-
-/* traform: translateY Npx;*/
+.dance {
+    transform: translateY(-20%);
+}
