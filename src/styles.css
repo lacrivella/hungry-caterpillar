@@ -6,6 +6,9 @@
     color: white;
     text-align: center;
 }
+/* h1, h2, #fruit-bar {
+    text-align: center;
+} */
 h1{
     font-size: 100px;
 }
@@ -14,10 +17,10 @@ h2 {
 }
 .part {
     display: inline-block;
-    height: 50px;
+    height: 150px;
     width: 30px;
-    border-radius: 30%;
-    margin-left: -15px;
+    border-radius: 25%;
+    margin-left: -20px;
 }
 .strawberry {
     background: red;
@@ -36,4 +39,7 @@ h2 {
 }
 .grape {
     background: indigo;
+}
+button {
+    border: none;
 }
