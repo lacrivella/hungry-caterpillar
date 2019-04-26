@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Geo');
+
+* {
+    font-family: 'Geo', sans-serif;
+}
+
+.strawberry {
+    background: red;
+}
+.orange {
+    background: orange;
+}
+.banana {
+    background: yellow;
+}
+.kiwi {
+    background: green;
+}
+.raspberry {
+    background: cyan;
+}
+.grape {
+    background: indigo;
+}
