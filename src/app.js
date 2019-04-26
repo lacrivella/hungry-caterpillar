@@ -7,4 +7,3 @@ for(let i = 0; i < fruitBars.length; i++) {
     fruitBar.addEventListener('click', () => {
     });
 }
-console.log(fruitBars);
