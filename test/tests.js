@@ -2,7 +2,7 @@ const test = QUnit.test;
 //function
 function feedNyan(foodName, parentElement) {
     const span = document.createElement('span');
-    span.classList.add(foodName, 'part');
+    span.classList.add('part', foodName);
 
     parentElement.appendChild(span);
     return parentElement.innerHTML;
