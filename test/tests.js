@@ -1,12 +1,14 @@
+import feedNyan from '../src/feed-nyan.js';
 const test = QUnit.test;
-//function
-function feedNyan(foodName, parentElement) {
-    const span = document.createElement('span');
-    span.classList.add('part', foodName);
 
-    parentElement.appendChild(span);
-    return parentElement.innerHTML;
-}
+//function
+// function feedNyan(foodName, parentElement) {
+//     const span = document.createElement('span');
+//     span.classList.add('part', foodName);
+
+//     parentElement.appendChild(span);
+//     return parentElement.innerHTML;
+// }
 
 test('test adding watermelon to nyancat', function(assert) {
 
