@@ -6,7 +6,6 @@ const cat = document.getElementById('cat');
 for(let i = 0; i < fruitBars.length; i++) {
     const fruitBar = fruitBars[i];
     fruitBar.addEventListener('click', () => {
-
         feedNyan(fruitBar.value, cat);
     });
 }
