@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+* {
+    font-family: 'VT323', monospace;
+    background-color: #033572;
+    color: white;
+    text-align: center;
+}
+/* h1, h2, #fruit-bar {
+    text-align: center;
+} */
+h1{
+    font-size: 100px;
+}
+h2 {
+    font-size: 75px;
+}
+.part {
+    display: inline-block;
+    height: 125px;
+    width: 30px;
+    border-radius: 15%;
+    margin-bottom: 20px;
+    margin-left: -10px;
+}
+.watermelon {
+    background: red;
+}
+.pancakes {
+    background: orange;
+}
+.banana {
+    background: yellow;
+}
+.avocado {
+    background: rgb(94, 226, 6);
+}
+.blueberry {
+    background: rgb(96, 196, 253);
+}
+.grape {
+    background: rgb(131, 59, 182);
+}
+button {
+    border: none;
+}
+.nyancat {
+    margin-right: -33px;
+}
+.power {
+    transform: translateY(-20%);
+}
